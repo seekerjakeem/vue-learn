@@ -1,22 +1,23 @@
 <script lang="ts">
-  export default{
-    data() {
-      return {
-        
-      }
-    },
-    methods: {
-    
+import ParentCmp from './components/ParentCmp.vue';
+import ChildCmp from './components/ChildCmp.vue';
+export default {
+  data() {
+    return {
+
     }
-  
+  },
+  methods: {
+
+  },
+  components: {
+    ParentCmp,ChildCmp
   }
+
+}
 </script>
   
 <template>
-  <div>
-    
-  </div>
+  <ParentCmp>
+  </ParentCmp>
 </template>
-
-<style scoped>
-</style>
