@@ -1,6 +1,6 @@
 <script lang="ts">
 import {ref} from 'vue';
-import ChildContent from './components/ChildContent.vue';
+import ChildContent from './ChildContent.vue';
 export default {
 
   setup() {
