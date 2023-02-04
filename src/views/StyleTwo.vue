@@ -1,0 +1,11 @@
+<template>
+    <main>
+        <h2>样式2，无序列表</h2>
+        <ul>
+            <li>盖伦</li>
+            <li>卡特</li>
+            <li>提莫</li>
+            <li>寒冰</li>
+        </ul>
+    </main>
+</template>
